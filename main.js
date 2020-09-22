@@ -19,6 +19,11 @@
 ***/
 
   console.log('%cKATA 02 RESULTS:', 'background: darkblue; color: white; font-weight: bold;') // These console.logs are just to help make the console log better organized and more readable
+let counter2 = 2
+while(counter2 <= 20) {
+  console.log(counter2)
+  counter2 = counter2 + 2;
+}
 
 
   /* Write your KATA 02 code in place of THIS comment. */
@@ -31,6 +36,12 @@
 ***/
 
   console.log('%cKATA 03 RESULTS:', 'background: darkblue; color: white; font-weight: bold;')
+ let counter3 = 1;
+ while (counter3 <= 20) {
+   
+  console.log (counter3)
+  counter3 = counter3 + 2;
+ }
  
 
   /* Write your KATA 03 code in place of THIS comment. */
@@ -43,7 +54,12 @@
 ***/
 
   console.log('%cKATA 04 RESULTS:', 'background: darkblue; color: white; font-weight: bold;')
-
+let counter4 = 1;
+while (counter4 <= 100) {
+  if (counter4 %5 === 0)
+  console.log (counter4)
+  counter4 = counter4 + 1;
+}
 
   /* Write your KATA 04 code in place of THIS comment. */
 
